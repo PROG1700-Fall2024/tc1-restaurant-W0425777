@@ -15,7 +15,7 @@ def main():
     
     print("Welcome to your bill calculator :) ")
 
-    billStart = input("Please enter your bill amount")
+    billStart = input("Please enter your bill amount:")
 
     billTax = (int(billStart) * 0.15)
 
@@ -23,7 +23,7 @@ def main():
 
     billTotal = (int(billStart) + billTip + billTax)
 
-    print ("Your original bill amount is:{0}".format(billStart))
+    print ("Your original bill amount is: {0}".format(billStart))
     print ("Your tax is: {0:.2f}".format(billTax))
     print ("Your tip is: {0:.2f}".format(billTip))
     print ("Your total is {0:.2f}".format(billTotal))
